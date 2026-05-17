@@ -76,7 +76,6 @@ export default function PointModalUI(props: IPointModalUIProps): JSX.Element {
         // okButtonProps={{ disabled: loading }}
         confirmLoading={loading}
         onCancel={() => props.setIsOpen(false)}
-        onClose={() => props.setIsOpen(false)}
         footer={null}
       >
         <S.Content>
